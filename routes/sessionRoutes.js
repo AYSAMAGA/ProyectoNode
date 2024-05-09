@@ -5,7 +5,7 @@ const router = express.Router();
 
 // Importamos el controlador de sessionRouter.
 
-const sessionController = require("../controllers/sessionController");
+const sessionController = require("../controllers/sessionControllers");
 const verifyToken = require("../middleware/verifyToken");
 
 // Ruta protegida para obtener informacion sobre el usuario que inicio sesion.

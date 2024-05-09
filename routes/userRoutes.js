@@ -5,7 +5,7 @@ const router = express.Router()
 
 // Importamos el controlador de usuarios.
 
-const userController= require("../controllers/userController")
+const userController= require("../controllers/userControllers")
 
 // Definir las rutas para el CRUD de usuarios.
 

@@ -5,7 +5,7 @@ const router = express.Router();
 
 // Importamos el controlador de authRoutes.
 
-const authController = require("../controllers/authController");
+const authController = require("../controllers/authControllers");
 
 // Rutas para al Auth del User.
 
